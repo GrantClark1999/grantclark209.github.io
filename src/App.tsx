@@ -1,28 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { hot } from 'react-hot-loader/root';
-import logo from './assets/GC_Logo_Colored.svg';
-import logo2 from './assets/PowerButton_Logo_B&W.svg';
-import './App.css';
+import Home from './pages/Home/Home';
+import Landing from './pages/Landing/Landing';
+import classes from './App.module.css';
 
 function App() {
+  const [onLanding, setOnLanding] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.App}>
+      {onLanding ? <Landing unmount={() => setOnLanding(false)}/> : <p>No Longer On Landing</p>}
     </div>
   );
 }
 
-export default process.env.NODE_ENV === "development" ? hot(App) : App
+export default process.env.NODE_ENV === 'development' ? hot(App) : App;
