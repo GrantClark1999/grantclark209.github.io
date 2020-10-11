@@ -7,7 +7,7 @@
   stroke-linejoin: round;
   stroke-miterlimit: 1.5;
   fill: none;
-  stroke: #fff;
+  stroke: #000;
   transform-origin: center;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .PowerOff {
-  animation: breathe 2s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
+  animation: breathe 3s ease-in-out infinite;
 }
 
 .PowerOn {
@@ -27,27 +27,30 @@
 }
 
 .PowerOn .LogoG {
-  stroke: #fff;
+  stroke: #000;
   stroke-dasharray: 1100;
   stroke-dashoffset: 1100;
   animation: fillG 1s linear forwards;
 }
 
 .PowerOn .LogoC {
-  stroke: #fff;
+  stroke: #000;
   stroke-dasharray: 800;
   stroke-dashoffset: 800;
-  animation: fillC 1s linear 1s forwards;
+  animation: fillC 0.5s linear 1s forwards;
 }
 
 @keyframes breathe {
-  from {
-    -webkit-filter: drop-shadow(-0.75px 0px 2px #fff);
-    filter: drop-shadow(-0.75px 0px 2px #fff);
+  0% {
+    transform: scaleX(1);
   }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
   to {
-    -webkit-filter: drop-shadow(-0.75px 0px 6px #fff);
-    filter: drop-shadow(-0.75px 0px 6px #fff);
+    transform: scaleX(1);
   }
 }
 
