@@ -1,4 +1,4 @@
-.Navbar {
+.navbar {
   width: 100%;
   min-height: 6vh;
   box-sizing: border-box;
@@ -8,13 +8,15 @@
   transition: all .7s ease-in;
 }
 
-.FixedScroll {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.SmallLogo {
+.small-logo {
   width: 50px;
   margin: 25px;
+}
+
+.navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-inline-start: 0;
 }

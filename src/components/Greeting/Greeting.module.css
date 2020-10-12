@@ -1,7 +1,16 @@
-.greeting {
+.greeting-hello {
   font-size: 4em;
   font-weight: 700;
   line-height: 1.5em;
+}
+
+.greeting-description {
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
 }
 
 .cursor-white {

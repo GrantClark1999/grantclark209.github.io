@@ -1,6 +1,8 @@
-.App {
+.app {
   width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
+  padding: 10px;
   background-image: url('./assets/background.jpg');
   background-size: cover;
 }
@@ -15,8 +17,15 @@
   animation: reveal 2s forwards;
 }
 
-.Content {
-  margin: 10em;
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  height: calc(100% - 100px);
+  padding: 0em 5em 5em 5em;
+}
+
+.home {
+  padding-top: 25%;
 }
 
 @keyframes reveal {

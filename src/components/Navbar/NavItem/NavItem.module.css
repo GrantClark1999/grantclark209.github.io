@@ -1,0 +1,27 @@
+.nav-item {
+  margin: 10px 2em;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.nav-item a,
+.nav-item a:link
+.nav-item a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item a:hover,
+.nav-item a:active,
+.nav-item a.active {
+  border-bottom: 3px solid #fff;
+}
+
+/*
+TODO: Media query at ~700px to compress navbar into side drawer.
+*/
