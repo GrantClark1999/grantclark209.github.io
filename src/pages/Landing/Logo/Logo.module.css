@@ -7,7 +7,7 @@
   stroke-linejoin: round;
   stroke-miterlimit: 1.5;
   fill: none;
-  stroke: #000;
+  stroke: #fff;
   transform-origin: center;
 }
 
@@ -27,14 +27,14 @@
 }
 
 .PowerOn .LogoG {
-  stroke: #000;
+  stroke: #fff;
   stroke-dasharray: 1100;
   stroke-dashoffset: 1100;
   animation: fillG 1s linear forwards;
 }
 
 .PowerOn .LogoC {
-  stroke: #000;
+  stroke: #fff;
   stroke-dasharray: 800;
   stroke-dashoffset: 800;
   animation: fillC 0.5s linear 1s forwards;

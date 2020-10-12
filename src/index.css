@@ -6,6 +6,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  color: #fff;
 }
 
 body {
@@ -21,6 +22,61 @@ h6,
 li {
   font-weight: 700;
   margin: 0;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+h2,
+blockquote {
+  font-size: 3.25em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h3 {
+  font-size: 2.65em;
+  line-height: 1em;
+  margin-bottom: 2em;
+}
+
+h4 {
+  font-size: 2.25em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h5,
+li.list-item {
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ol {
+  font-size: 2.5em;
+}
+
+ol li {
+  margin-bottom: 2.5em;
+  padding-bottom: 1em;
+}
+
+li {
+  margin-bottom: 2.5em;
+  padding-bottom: 2em;
+}
+
+p {
+  font-size: 2.5em;
+  line-height: 2em;
+  margin-bottom: 1.5em;
 }
 
 code {

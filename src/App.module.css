@@ -1,9 +1,26 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: #fff;
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+}
+
+.background-black {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.background-reveal {
+  animation: reveal 2s forwards;
 }
 
 .Content {
-  margin-top: 100px;
+  margin: 10em;
+}
+
+@keyframes reveal {
+  to {
+    background: rgba(0, 0, 0, 0.5);
+  }
 }
