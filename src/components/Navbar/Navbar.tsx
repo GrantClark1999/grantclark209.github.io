@@ -1,20 +1,18 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import logo from '../../assets/GC_Logo_White.svg';
+import { animateScroll as scroll } from 'react-scroll';
+import logo from '../../assets/GC_Logo_Black.svg';
 import NavItem from './NavItem/NavItem';
 import classes from './Navbar.module.css';
 
 export default function Navbar() {
   return (
     <nav className={classes.navbar}>
-      <NavLink to='/' exact>
-        <img src={logo} alt='logo' className={classes['small-logo']} />
-      </NavLink>
+      <img src={logo} alt='logo' className={classes['small-logo']} onClick={() => scroll.scrollToTop()} />
       <ul>
-        <NavItem to='/about'>About Me</NavItem>
-        <NavItem to='/interests'>Interests</NavItem>
-        <NavItem to='/hobbies'>Hobbies</NavItem>
-        <NavItem to='/contact-me'>Contact Me</NavItem>
+        <NavItem to='about'>About Me</NavItem>
+        <NavItem to='skills'>Skills</NavItem>
+        <NavItem to='projects'>Projects</NavItem>
+        <NavItem to='contact'>Contact Me</NavItem>
       </ul>
     </nav>
   );

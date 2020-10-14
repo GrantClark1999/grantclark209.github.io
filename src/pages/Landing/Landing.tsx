@@ -16,7 +16,7 @@ export default function Landing({ unmount }: LandingProps) {
   }, [clicked, unmount]);
 
   return (
-    <div className={classes.Body} onClick={() => setClicked(true)}>
+    <div className={classes.landing} onClick={() => setClicked(true)}>
       <Logo animateToLogo={clicked} />
     </div>
   );

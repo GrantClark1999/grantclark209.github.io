@@ -1,19 +1,18 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import classes from './NavItem.module.css';
 
 type NavItemProps = {
   to: string;
-  exact?: boolean;
   children: React.ReactNode;
 }
 
-export default function NavItem({ to, exact=false, children }: NavItemProps) {
+export default function NavItem({ to, children }: NavItemProps) {
   return (
     <li className={classes['nav-item']}>
-      <NavLink to={to} activeClassName={classes.active} exact={exact}>
+      <Link to={to} activeClass={classes.active} spy={true} smooth>
         {children}
-      </NavLink>
+      </Link>
     </li>
   );
 }

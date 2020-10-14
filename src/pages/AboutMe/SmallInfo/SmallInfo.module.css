@@ -1,0 +1,32 @@
+.root {
+  margin: 0 0 1em 0;
+  padding: 0 0 0 3em;
+  box-sizing: border-box;
+  width: 50%;
+  min-width: 23em;
+  font-size: 2em;
+  position: relative;
+}
+
+.test {
+  position: absolute;
+  width: 2em;
+  left: 0;
+}
+
+.root svg {
+  display: block;
+  margin: auto;
+  color: #ef476f;
+}
+
+.root span {
+  font-weight: 500;
+}
+
+.root span label {
+  font-weight: 700;
+  color: #000;
+  min-width: 6em;
+  display: inline-block;
+}
