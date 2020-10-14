@@ -23,7 +23,7 @@ import PKitty2Pic from '../../assets/Family/PKitty2.jpg';
 export default function AboutMe() {
   const familyPics = [
     {
-      des: 'Clark Family in Cabo San Lucas\nMe, Mia, Bill, Jamie, Ava',
+      des: 'Clark Family in Cabo San Lucas (Me, Mia, Bill, Jamie, Ava)',
       imgSrc: ClarkFamilyPic,
     },
     {
