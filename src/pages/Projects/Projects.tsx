@@ -57,7 +57,7 @@ export default function Projects() {
       <div className={classes['flex-container']}>
         <div className={classes.card}>
           <a
-            href='https://github.com/GrantClark209/personal-website'
+            href='https://github.com/GrantClark209/grantclark209.github.io'
             className={classes['card-content']}
             style={{ backgroundImage: `url(${Website})` }}
             target='_blank'
