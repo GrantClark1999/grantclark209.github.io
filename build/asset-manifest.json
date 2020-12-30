@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c567a75b.chunk.css",
-    "main.js": "/static/js/main.47f1a5e2.chunk.js",
-    "main.js.map": "/static/js/main.47f1a5e2.chunk.js.map",
+    "main.css": "/static/css/main.a0c9ac9b.chunk.css",
+    "main.js": "/static/js/main.e9818765.chunk.js",
+    "main.js.map": "/static/js/main.e9818765.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
-    "static/css/2.2c590ca5.chunk.css": "/static/css/2.2c590ca5.chunk.css",
-    "static/js/2.f704a4f1.chunk.js": "/static/js/2.f704a4f1.chunk.js",
-    "static/js/2.f704a4f1.chunk.js.map": "/static/js/2.f704a4f1.chunk.js.map",
+    "static/js/2.689891c5.chunk.js": "/static/js/2.689891c5.chunk.js",
+    "static/js/2.689891c5.chunk.js.map": "/static/js/2.689891c5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4351426fe1d7ae399237459307867380.js": "/precache-manifest.4351426fe1d7ae399237459307867380.js",
+    "precache-manifest.7550ecdf6c9a03fa0890b87885317f9f.js": "/precache-manifest.7550ecdf6c9a03fa0890b87885317f9f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.2c590ca5.chunk.css.map": "/static/css/2.2c590ca5.chunk.css.map",
-    "static/css/main.c567a75b.chunk.css.map": "/static/css/main.c567a75b.chunk.css.map",
-    "static/js/2.f704a4f1.chunk.js.LICENSE.txt": "/static/js/2.f704a4f1.chunk.js.LICENSE.txt",
+    "static/css/main.a0c9ac9b.chunk.css.map": "/static/css/main.a0c9ac9b.chunk.css.map",
+    "static/js/2.689891c5.chunk.js.LICENSE.txt": "/static/js/2.689891c5.chunk.js.LICENSE.txt",
     "static/media/AWS.jpg": "/static/media/AWS.38eeef6d.jpg",
     "static/media/C++.png": "/static/media/C++.a7df7085.png",
     "static/media/ClarkFamily.jpg": "/static/media/ClarkFamily.63dad446.jpg",
@@ -31,6 +29,7 @@
     "static/media/React.png": "/static/media/React.ed931db8.png",
     "static/media/Redux.png": "/static/media/Redux.c3045a61.png",
     "static/media/SpringBoot.png": "/static/media/SpringBoot.f9aba2b0.png",
+    "static/media/TelaHance.png": "/static/media/TelaHance.8a9cedaf.png",
     "static/media/Webpack.png": "/static/media/Webpack.68db2379.png",
     "static/media/Website.png": "/static/media/Website.bb0e03f7.png",
     "static/media/App.module.css": "/static/media/background.60b480ff.jpg",
@@ -38,9 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
-    "static/css/2.2c590ca5.chunk.css",
-    "static/js/2.f704a4f1.chunk.js",
-    "static/css/main.c567a75b.chunk.css",
-    "static/js/main.47f1a5e2.chunk.js"
+    "static/js/2.689891c5.chunk.js",
+    "static/css/main.a0c9ac9b.chunk.css",
+    "static/js/main.e9818765.chunk.js"
   ]
 }

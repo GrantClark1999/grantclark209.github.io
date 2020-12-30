@@ -37,9 +37,10 @@ function App() {
             <Element id='projects' name='projects'>
               <Projects />
             </Element>
-            <Element id='contact' name='contact'>
+            <Element id='contact' name='contact' className={classes.last}>
               <ContactMe />
             </Element>
+            <div className={classes.footer}/>
           </>
         )}
       </div>

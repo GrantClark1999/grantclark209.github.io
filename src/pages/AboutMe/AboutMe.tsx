@@ -67,7 +67,7 @@ export default function AboutMe() {
         In my free time, I enjoy playing video games and occasionally streaming
         myself playing games or developing, as a way to interact with others
         with the same interests. Additionally, one of my personal projects tied
-        into straming, which augmented the experience and made it more
+        into streaming, which augmented the experience and made it more
         interactive between streamer and viewer.
       </p>
       <div className={classes['quick-info']}>
@@ -96,14 +96,14 @@ export default function AboutMe() {
           Pop, Lofi, Electronic
         </SmallInfo>
       </div>
-      <h3>My Family</h3>
+      {/* <h3>My Family</h3>
       <CarouselSlider
         slideCpnts={familyPics}
         manner={{ autoSliding: { interval: '8s' } }}
         buttonSetting={{ placeOn: 'middle-inside' }}
-      />
+      /> */}
 
-      <h3>Hobbies</h3>
+      {/* <h2>Hobbies</h2>
       <p>
         My biggest hobby is gaming. My main games currently are Rocket League,
         Rainbox Six Siege, and Among Us. Rocket League is my current favorite,
@@ -123,7 +123,7 @@ export default function AboutMe() {
         My plan is to expand this viewer-streamer interaction to other streamers
         in the Twitch community and allow them to do similar things, like
         changing room LED color, or making the streamer close out of their game.
-      </p>
+      </p> */}
     </div>
   );
 }

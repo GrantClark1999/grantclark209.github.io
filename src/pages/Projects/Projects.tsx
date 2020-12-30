@@ -1,4 +1,5 @@
 import React from 'react';
+import TelaHance from '../../assets/TelaHance.png';
 import FuzBot from '../../assets/FuzBot.png';
 import RLMafia from '../../assets/RLMafia.png';
 import Website from '../../assets/Website.png';
@@ -11,16 +12,27 @@ export default function Projects() {
       <div className={classes['flex-container']}>
         <div className={classes.card}>
           <a
-            href='https://github.com/GrantClark209/FuzBot'
+            href='https://github.com/tkomarlu/TeladocCapstone'
             className={classes['card-content']}
-            style={{ backgroundImage: `url(${FuzBot})` }}
+            style={{ backgroundImage: `url(${TelaHance})` }}
             target='_blank'
             rel='noopener noreferrer'
           >
-            FuzBot WIP User Interface
+            TelaHance Capstone Project Example UI
           </a>
         </div>
         <div className={classes.description}>
+          <h3>TelaHance</h3>
+          <p>
+            A project for Teladoc™ Health for patients and doctors to view
+            transcribed consults, and assist doctors in making the right
+            diagnosis while working remote. This project is a part of my ongoing
+            Capstone course for UCSB.
+          </p>
+        </div>
+      </div>
+      <div className={classes['flex-container-reverse']}>
+      <div className={classes.description}>
           <h3>FuzBot</h3>
           <p>
             A Work-In-Progress Twitch.tv desktop application that allows
@@ -31,22 +43,11 @@ export default function Projects() {
             application, and many more.
           </p>
         </div>
-      </div>
-      <div className={classes['flex-container-reverse']}>
-        <div className={classes.description}>
-          <h3>RL Mafia</h3>
-          <p>
-            A Discord Bot that helps people play a version of the infamous
-            "Mafia" or "Town of Salem" game in Rocket League. RLMafia uses
-            reaction-based events to allow for concurrent and user-friendly
-            playing experiences.
-          </p>
-        </div>
         <div className={classes.card}>
           <a
-            href='https://github.com/GrantClark209/RLMafia'
+            href='https://github.com/GrantClark209/FuzBot'
             className={classes['card-content']}
-            style={{ backgroundImage: `url(${RLMafia})` }}
+            style={{ backgroundImage: `url(${FuzBot})` }}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -73,6 +74,28 @@ export default function Projects() {
             and demonstrate some of my skillset. As I learn new designs and
             skills, I will be updating this site to maintain a modern appeal.
           </p>
+        </div>
+      </div>
+      <div className={classes['flex-container-reverse']}>
+        <div className={classes.description}>
+          <h3>RL Mafia</h3>
+          <p>
+            A Discord Bot that helps people play a version of the infamous
+            "Mafia" or "Town of Salem" game in Rocket League. RLMafia uses
+            reaction-based events to allow for concurrent and user-friendly
+            playing experiences.
+          </p>
+        </div>
+        <div className={classes.card}>
+          <a
+            href='https://github.com/GrantClark209/RLMafia'
+            className={classes['card-content']}
+            style={{ backgroundImage: `url(${RLMafia})` }}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            FuzBot WIP User Interface
+          </a>
         </div>
       </div>
     </div>

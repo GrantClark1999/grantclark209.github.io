@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "882132f627c2914dbd1d2c6119e50dbd",
+    "revision": "dc237ec0dab5fbe894dd827eaf7c810b",
     "url": "/index.html"
   },
   {
-    "revision": "f4070b57b902d6e4a55c",
-    "url": "/static/css/2.2c590ca5.chunk.css"
+    "revision": "26fcacff186892d65618",
+    "url": "/static/css/main.a0c9ac9b.chunk.css"
   },
   {
-    "revision": "0f4d661fe5b1c0d11218",
-    "url": "/static/css/main.c567a75b.chunk.css"
-  },
-  {
-    "revision": "f4070b57b902d6e4a55c",
-    "url": "/static/js/2.f704a4f1.chunk.js"
+    "revision": "23b06c6a73d28a2c0e05",
+    "url": "/static/js/2.689891c5.chunk.js"
   },
   {
     "revision": "0d6c4affe2a659999d44765f9a17cb4f",
-    "url": "/static/js/2.f704a4f1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.689891c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f4d661fe5b1c0d11218",
-    "url": "/static/js/main.47f1a5e2.chunk.js"
+    "revision": "26fcacff186892d65618",
+    "url": "/static/js/main.e9818765.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
@@ -94,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f9aba2b0576e26d6afc3061c57acc02f",
     "url": "/static/media/SpringBoot.f9aba2b0.png"
+  },
+  {
+    "revision": "8a9cedafe59a462ca6980924839ea302",
+    "url": "/static/media/TelaHance.8a9cedaf.png"
   },
   {
     "revision": "68db23797418adcd402a4cf3d5ab776b",
